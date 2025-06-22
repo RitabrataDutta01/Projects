@@ -1,12 +1,21 @@
-# Portfolio
+# Python Projects Collection
 
-This is my personal portfolio website built using HTML and CSS. It showcases my mini-projects including:
+This repository contains several Python mini-projects I built to practice and demonstrate my skills.
 
-- PDF Tools (convert Word/Excel/PPT/Image to PDF)
-- Weather App
-- Expense Tracker
-- To-Do List
-- Logbook
+## 📂 Project List
 
-## Live Demo
-🔗 [Visit My Portfolio](https://ritabratadutta01.github.io/portfolio)
+| Project         | Description                             |
+|----------------|-----------------------------------------|
+| expenses        | Track and manage daily expenses         |
+| todo            | Simple To-Do List CLI app               |
+| weather         | Fetches weather info using an API       |
+| logbook         | A CLI-based daily logbook system        |
+| binary2decimal  | Converts binary numbers to decimal      |
+
+## 💻 How to Run
+
+Clone the repo and navigate into any folder:
+```bash
+git clone https://github.com/RitabrataDutta01/Projects
+cd Projects/todo
+python todo.py
