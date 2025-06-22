@@ -17,9 +17,9 @@ A user-authenticated **daily logbook/diary app** built using Python and Tkinter.
 
 ---
 
-##🖥️Screenshot
+🖥️Screenshot
 
-##> *(Insert a screenshot here if available)*
+> *(Insert a screenshot here if available)*
 
 ---
 
