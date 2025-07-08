@@ -10,7 +10,7 @@ This repository contains several Python mini-projects I built to practice and de
 | todo            | Simple To-Do List CLI app               |
 | weather         | Fetches weather info using an API       |
 | logbook         | A CLI-based daily logbook system        |
-| binary2decimal  | Converts binary numbers to decimal      |
+| bengaluru  | A ML based streamlit app for house price prediction in bengaluru     |
 
 ## 💻 How to Run
 
