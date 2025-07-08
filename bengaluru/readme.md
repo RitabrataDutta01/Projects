@@ -41,6 +41,8 @@ Here is a preview of the Bangalore House Price Predictor app:
 Based on cleaned data from Kaggle:  
 **Bengaluru House Prices Dataset** – [View on Kaggle](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)
 
+## 🔗 Live link
+**Live Version of the App** - [Bengaluru Housing](https://projects-m4ntlhvnms46xufgpye7ja.streamlit.app/)
 
 ## 📫 Contact
 
