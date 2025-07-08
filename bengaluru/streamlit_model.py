@@ -1,15 +1,17 @@
 import streamlit as st
 import joblib
 import pandas as pd
+import os
 
 # Load model and metadata with caching for performance
 @st.cache_resource
 def load_model_and_metadata():
-    model = joblib.load('bengaluru_price_model.pkl')
-    locations = joblib.load('locations.pkl')
-    area_types = joblib.load('area_types.pkl')
+    base_path = os.path.dirname(__file__)
+    model = joblib.load(os.path.join(base_path, 'bengaluru_price_model.pkl'))
+    locations = joblib.load(os.path.join(base_path, 'locations.pkl'))
+    area_types = joblib.load(os.path.join(base_path, 'area_types.pkl'))
     return model, locations, area_types
-
+    
 model, locations, area_types = load_model_and_metadata()
 
 st.title('🏠 Bangalore House Price Predictor')
