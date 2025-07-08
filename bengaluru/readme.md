@@ -34,7 +34,7 @@ streamlit run app.py
 
 Here is a preview of the Bangalore House Price Predictor app:
 
-![App Screenshot](ss/screenshot.png)
+![App Screenshot](./ss/screenshot.png)
 
 ## 📁 Dataset
 
